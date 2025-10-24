@@ -74,6 +74,38 @@ button:hover {
     background-color: darkblue;
 }
 
+.search-section {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.search-section input {
+    width: 300px;
+}
+
+.search-section button {
+    padding: 5px 15px;
+}
+
+.add-product-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#addProductForm {
+    margin-top: 20px;
+}
+
+#addProductForm input {
+    margin: 5px;
+}
+
 @media (max-width: 600px) {
     #product-list {
         flex-direction: column;
